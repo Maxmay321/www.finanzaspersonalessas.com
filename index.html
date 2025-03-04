@@ -13,10 +13,14 @@
             text-align: center;
         }
         header {
-            background-color: #004080; /* Color corporativo basado en el logo */
+            background-color: #004080;
             color: white;
             padding: 20px;
             font-size: 24px;
+        }
+        .logo {
+            width: 250px; /* Ajusta el tamaño del logo */
+            margin-top: 20px;
         }
         section {
             padding: 20px;
@@ -26,18 +30,11 @@
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
         }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        .logo {
-            width: 200px;
-            margin-top: 20px;
-        }
-        .casa-img {
-            width: 80%;
-            margin-top: 20px;
-            border-radius: 10px;
+        .house-image {
+            width: 100%; /* La imagen ocupa todo el ancho disponible */
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
         }
         footer {
             background-color: #002050;
@@ -52,17 +49,16 @@
 <body>
     <header>
         <img src="LOGO3.jpeg" alt="Logo de Finanzas Personales SAS" class="logo">
-        <h1>Finanzas Personales SAS</h1>
     </header>
     
     <section>
         <h2>Quiénes Somos</h2>
         <p>Somos una empresa especializada en la reducción de tiempos y costos en créditos hipotecarios.</p>
         <p>Trabajamos con bancos como Davivienda, Caja Social, Bancolombia, Colpatria y AV Villas.</p>
-        <img src="casa.jpg" alt="Entrega de llaves de una casa" class="casa-img">
     </section>
     
     <section>
+        <img src="depositphotos_21515189-stock-photo-agent-with-house-model-and.jpg" alt="Casa y llaves" class="house-image">
         <h2>Nuestros Servicios</h2>
         <p>Ofrecemos asesoría financiera para optimizar tu crédito hipotecario, reduciendo plazos y costos.</p>
     </section>
@@ -79,3 +75,4 @@
     </footer>
 </body>
 </html>
+
